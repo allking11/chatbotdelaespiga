@@ -163,7 +163,7 @@ export async function POST(req: NextRequest) {
 
     // Prepare message structure for OpenAI Chat API
     const formattedMessages = [
-      { role: "system", content: finalSystemPrompt },
+      { role: "developer", content: finalSystemPrompt },
       ...contextHistory.map((msg: any) => ({
         role: msg.role === "assistant" ? "assistant" : "user",
         // Increase truncation limit to 1000 or keep 600
@@ -182,7 +182,7 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({
         model: "gpt-5.4-nano-2026-03-17",
         messages: formattedMessages,
-        temperature: 0.7,
+        temperature: 1,
         max_completion_tokens: 450, // Prevents runaway billing costs on replies
       }),
     });
