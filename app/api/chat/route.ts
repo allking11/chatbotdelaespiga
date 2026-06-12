@@ -183,7 +183,7 @@ export async function POST(req: NextRequest) {
         model: "gpt-5.4-nano-2026-03-17",
         messages: formattedMessages,
         temperature: 0.7,
-        max_tokens: 450, // Prevents runaway billing costs on replies
+        max_completion_tokens: 450, // Prevents runaway billing costs on replies
       }),
     });
 
