@@ -140,7 +140,7 @@ export async function POST(req: NextRequest) {
     if (message === "ping_connection_test") {
       return NextResponse.json({
         ok: true,
-        provider: process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY !== "MY_OPENAI_API_KEY" ? "OpenAI gpt-4.1-mini-2025-04-14" : "OpenAI (Sin Configurar)"
+        provider: process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY !== "MY_OPENAI_API_KEY" ? "OpenAI gpt-5.4-nano-2026-03-17" : "OpenAI (Sin Configurar)"
       });
     }
 
@@ -180,7 +180,7 @@ export async function POST(req: NextRequest) {
         "Authorization": `Bearer ${openAiKey}`,
       },
       body: JSON.stringify({
-        model: "gpt-4.1-mini-2025-04-14",
+        model: "gpt-5.4-nano-2026-03-17",
         messages: formattedMessages,
         temperature: 0.7,
         max_tokens: 450, // Prevents runaway billing costs on replies
@@ -198,7 +198,7 @@ export async function POST(req: NextRequest) {
     // 7. Secure response response payload (omit secrets)
     return NextResponse.json({
       reply,
-      provider: "OpenAI gpt-4.1-mini-2025-04-14",
+      provider: "OpenAI gpt-5.4-nano-2026-03-17",
     });
 
   } catch (error: any) {
