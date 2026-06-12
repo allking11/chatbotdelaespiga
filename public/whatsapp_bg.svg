@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <rect width="160" height="160" fill="#e5ddd5" />
+  <g fill="none" stroke="#b1a699" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.18">
+    <!-- Message Bubble -->
+    <path d="M25 20 h16 a3 3 0 0 1 3 3 v8 a3 3 0 0 1 -3 3 h-8 l-4 4 v-4 h-4 a3 3 0 0 1 -3 -3 v-8 a3 3 0 0 1 3 -3 z" />
+    
+    <!-- Sparkles -->
+    <path d="M22 100 l1 -2 l2 -1 l-2 -1 l-1 -2 l-1 2 l-2 1 l2 1 z" />
+    <path d="M140 32 l1 -2 l2 -1 l-2 -1 l-1 -2 l-1 2 l-2 1 l2 1 z" />
+    
+    <!-- Heart -->
+    <path d="M85 30 c-3 -3 -7 -3 -10 0 c-2 2 -2 5 0 7 l10 10 l10 -10 c2 -2 2 -5 0 -7 c-3 -3 -7 -3 -10 0 z" />
+    
+    <!-- Cloud -->
+    <path d="M125 72 c3 0 5 -2 5 -5 c0 -3 -2 -5 -5 -5 c-1 0 -2 0 -3 1 c-1 -4 -5 -6 -9 -5 c-3 1 -5 3 -5 6 c-3 0 -5 2 -5 5 s2 5 5 5 z" />
+    
+    <!-- Coffee/Tea Cup -->
+    <path d="M25 65 v10 a4 4 0 0 0 4 4 h10 a4 4 0 0 0 4 -4 v-10 h-18 z" />
+    <path d="M43 68 a3 3 0 0 1 3 3 a3 3 0 0 1 -3 3" />
+    <path d="M28 58 c1 2 2 2 3 0" />
+    <path d="M34 58 c1 2 2 2 3 0" />
+    
+    <!-- Wheat grain / Pasta motif for Espiga de Oro -->
+    <path d="M82 110 c3 -3 6 -3 8 -1 c1 1 1 4 -1 6 c-3 3 -6 3 -8 1 c-1 -1 -1 -4 1 -6 z" />
+    <path d="M78 114 c3 -3 6 -3 8 -1 c1 1 1 4 -1 6 c-3 3 -6 3 -8 1 c-1 -1 -1 -4 1 -6 z" />
+    <path d="M86 106 c3 -3 6 -3 8 -1 c1 1 1 4 -1 6 c-3 3 -6 3 -8 1 c-1 -1 -1 -4 1 -6 z" />
+    <path d="M76 122 l10 -10" />
+
+    <!-- Musical Note -->
+    <path d="M128 112 v-15 l12 -3 v15" />
+    <circle cx="128" cy="112" r="3.5" fill="#b1a699" />
+    <circle cx="140" cy="109" r="3.5" fill="#b1a699" />
+    <path d="M128 102 l12 -3" />
+    
+    <!-- Smile face -->
+    <circle cx="135" cy="140" r="8" />
+    <path d="M131 141 a4 4 0 0 0 8 0" />
+    <circle cx="132" cy="137" r="1.2" fill="#b1a699" />
+    <circle cx="138" cy="137" r="1.2" fill="#b1a699" />
+
+    <!-- Phone Handset -->
+    <path d="M25 135 c3 -1 6 -2 9 -4 c1 -1 1 -2 0 -2.5 l-2.5 -2.5 c-1 -1 -2 -1 -2.5 0 l-1 1 c-1.5 -1 -3 -2 -4 -4.5 l1 -1 c1 -1 1 -2 0 -2.5 l-2.5 -2.5 c-1 -1 -2 -1 -2.5 0 l-2.5 2.5 c-2 3 -4 6 -4 9.5 z" />
+    
+    <!-- Star -->
+    <path d="M80 75 l1.5 3 l3.5 0.5 l-2.5 2.5 l0.5 3.5 l-3.5 -2 l-3.5 2 l0.5 -3.5 l-2.5 -2.5 l3.5 -0.5 z" />
+  </g>
+</svg>
