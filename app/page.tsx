@@ -405,7 +405,7 @@ export default function ChatbotDemoPage() {
                   }}
                   placeholder="Escribe un mensaje aquí..."
                   disabled={isTyping}
-                  className="w-full bg-transparent focus:outline-none text-[13px] text-stone-800 placeholder-stone-400"
+                  className="w-full bg-transparent focus:outline-none text-base md:text-[13px] text-stone-800 placeholder-stone-400"
                   id="input-whatsapp"
                 />
 
