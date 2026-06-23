@@ -190,7 +190,7 @@ export default function ChatbotDemoPage() {
         <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-amber-500 to-yellow-400 flex items-center justify-center shadow-lg shadow-amber-500/20 text-2xl animate-bounce">
           <span>🌾</span>
         </div>
-        <div className="text-slate-400 font-medium text-xs tracking-wider animate-pulse">Cargando Chatbot Espiga de Oro...</div>
+        <div className="text-slate-400 font-medium text-xs tracking-wider animate-pulse">Cargando Chatbot De La Espiga...</div>
       </div>
     );
   }
@@ -201,18 +201,18 @@ export default function ChatbotDemoPage() {
       {/* Top Navbar */}
       <nav className="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-0 z-40 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-yellow-400 overflow-hidden flex items-center justify-center shadow-lg shadow-amber-500/20 relative">
+          <div className="w-10 h-10 rounded-xl bg-white overflow-hidden flex items-center justify-center shadow-lg shadow-amber-500/20 relative">
             <Image
-              src="/heroo2.png"
-              alt="Logo Espiga de Oro"
+              src="/logo.png"
+              alt="Logo De La Espiga"
               fill
-              className="object-cover"
+              className="object-contain p-1"
               referrerPolicy="no-referrer"
             />
           </div>
           <div>
             <h1 className="font-bold text-base tracking-tight text-white flex items-center gap-1.5">
-              Espiga de Oro
+              De La Espiga
             </h1>
             <p className="text-xs text-slate-400 hidden sm:block">Canal Oficial de WhatsApp (Simulador)</p>
             <p className="text-[10px] text-teal-400 sm:hidden flex items-center gap-1">
@@ -248,12 +248,12 @@ export default function ChatbotDemoPage() {
               
               <div className="flex items-center space-x-2.5">
                 <div className="relative">
-                  <div className="w-10 h-10 rounded-full bg-amber-500 border-2 border-white/90 overflow-hidden flex items-center justify-center font-bold text-lg shadow text-slate-900 pointer-events-none select-none relative">
+                  <div className="w-10 h-10 rounded-full bg-white border-2 border-white/90 overflow-hidden flex items-center justify-center font-bold text-lg shadow text-slate-900 pointer-events-none select-none relative">
                     <Image
-                      src="/heroo2.png"
+                      src="/logo.png"
                       alt="WhatsApp Avatar"
                       fill
-                      className="object-cover"
+                      className="object-contain p-1"
                       referrerPolicy="no-referrer"
                     />
                   </div>
@@ -262,7 +262,7 @@ export default function ChatbotDemoPage() {
 
                 <div>
                   <div className="flex items-center gap-1">
-                    <span className="font-bold text-sm tracking-wide">Espiga de Oro</span>
+                    <span className="font-bold text-sm tracking-wide">De La Espiga</span>
                   </div>
 
                   <AnimatePresence mode="wait">

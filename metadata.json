@@ -1,6 +1,6 @@
 {
-  "name": "Chatbot Espiga de Oro",
-  "description": "Demo interactiva del asistente de IA de WhatsApp para la fábrica de pastas Espiga de Oro, con system prompt configurable.",
+  "name": "Chatbot De La Espiga",
+  "description": "Demo interactiva del asistente de IA de WhatsApp para De La Espiga, con system prompt configurable.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
