@@ -99,7 +99,7 @@ export async function POST(req: NextRequest) {
 
     if (!openAiKey || openAiKey === "MY_OPENAI_API_KEY" || openAiKey.trim() === "") {
       return NextResponse.json({
-        error: "Falta configurar la Clave API de OpenAI. Por favor ingresa tu OPENAI_API_KEY en el panel de Secrets de AI Studio.",
+        error: "Falta configurar la Clave API de OpenAI. Por favor ingresa tu OPENAI_API_KEY en las variables de entorno.",
       }, { status: 500 });
     }
 

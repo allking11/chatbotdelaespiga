@@ -149,7 +149,7 @@ export default function ChatbotDemoPage() {
         {
           id: generateUniqueId("reply-net-err"),
           role: "assistant",
-          content: "⚠️ Error de red. Asegúrate de tener conexión y de que las variables de entorno estén configuradas en AI Studio.",
+          content: "⚠️ Error de red. Asegúrate de tener conexión y de que las variables de entorno estén configuradas correctamente.",
           time: replyTime,
         },
       ]);
